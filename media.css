@@ -1,0 +1,529 @@
+@media screen and (max-width:600px) {
+    .sec4 {
+        display: block;
+    }
+
+    .sec2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .sec3 {
+        display: none;
+    }
+
+    .banner {
+        background-size: cover;
+        margin-bottom: 80vh;
+        height: 200vh;
+    }
+
+    .imgs {
+        display: flex;
+        flex-direction: column;
+        padding-top: 50%;
+        padding-right: 18px;
+
+
+    }
+
+    .badd {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        /* margin-top: 20px; */
+        padding-top: 30px;
+    }
+
+    .shaashi {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        /* width: 80px; */
+        width: 100%;
+        margin-top: 90vh;
+
+    }
+
+    .USA {
+        padding-bottom: 20px;
+    }
+
+    .germany {
+        padding-top: 50px;
+        margin-top: 180vh;
+        height: 80vh;
+    }
+
+    .fex {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        /* width: 80px; */
+        margin-top: 100px;
+
+    }
+
+    .aside {
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .mmdiv {
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+
+
+    }
+
+    .mdiv {
+        height: 90%;
+    }
+
+    .class1 {
+        height: 0%;
+    }
+
+    .class2 {
+        height: 0%;
+        margin-top: 50vh;
+
+    }
+
+    .class3 {
+        height: 0%;
+        margin-top: 50vh;
+
+    }
+
+    .imgs {
+        display: none;
+    }
+
+    .south {
+        display: none;
+    }
+    .footer{
+        /* margin-top: 100vh; */
+        /* margin-top: 10%; */
+        display: none;
+    }
+    .butto{
+        padding-bottom: 20vh;
+    }
+    
+
+
+
+}
+
+@media screen and (min-width:601px) and (max-width:1440px) {
+
+    header {
+        background-position: center;
+
+    }
+
+    .sec1 {
+        width: 10vw;
+
+    }
+
+    .shaashi {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    .fex {
+        display: block;
+    }
+
+    .mmdiv {
+        display: block;
+    }
+
+    .banner {
+        height: 180vh;
+    }
+
+    .butto {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .badd {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        /* margin-top: 20px; */
+        padding-top: 30px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .venkat {
+        width: 100%;
+
+    }
+
+
+
+
+
+
+
+    .mdiv {
+        margin-top: 120%;
+    }
+
+    .germany {
+        margin-top: 330%;
+    }
+
+    .class1 {
+        margin-top: 10%;
+    }
+
+    .class2 {
+        margin-top: 50%;
+    }
+
+    .class3 {
+        margin-top: 50%;
+    }
+
+    .imgs {
+        display: none;
+    }
+
+    .south {
+        display: none;
+    }
+
+    .footer {
+        margin-top: 70%;
+    }
+
+
+
+
+}
+
+
+
+@media screen and (min-width:321px) and (max-width:600px) {
+
+    .header {
+        width: 100%;
+        height: 15vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .sec1,
+    .sec3 {
+        width: 10vw;
+
+    }
+
+    .sec2 {
+        width: 60vw;
+        background-color: aqua;
+        height: 10vh;
+    }
+
+    .mlist {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 5vh;
+
+
+    }
+
+    /* .sublist {
+    display: none;
+    position: relative;
+    right: 25vh;
+    top: 5vh;
+}
+
+.pho:hover~.sublist {
+    display: block;
+} */
+
+    li {
+        list-style: none;
+    }
+
+    .sec4 {
+        display: none;
+    }
+
+    .banner {
+        /* width: 80%; */
+        height: 100vh;
+        background-size: cover;
+        background-color: aqua;
+        background-image: url(./PROJIMAGES/banner-bg.jpg);
+        position: relative;
+
+
+
+    }
+
+    h2 {
+        text-align: center;
+        color: white;
+        font-size: 75px;
+        padding-top: 5%;
+    }
+
+    p {
+        font-size: 25px;
+        color: white;
+        text-align: center;
+        padding: 0% 20% 0% 20%;
+        margin-top: 30px;
+    }
+
+    .butto {
+        text-align: center;
+        border-radius: 5px;
+        color: blue;
+        padding: 20px;
+        column-gap: 10%;
+        cursor: pointer;
+        border-radius: 30px;
+        size: 10px;
+        margin-top: 30px;
+    }
+
+    .imgs {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        position: absolute;
+        margin-top: 8%;
+        margin-left: 14%;
+    }
+
+
+    .south {
+        height: 20vh;
+
+    }
+
+
+
+
+
+    .badd {
+        display: flex;
+        margin-top: 25px;
+        align-items: flex-start;
+        justify-content: space-between;
+
+        color: rgb(15, 136, 187);
+
+    }
+
+
+    .shaashi {
+
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+        height: 55vh;
+        /* padding-bottom: 150px; */
+        padding-top: 60px;
+        /* row-gap: 50px; */
+
+
+    }
+
+    .shashi {
+
+
+        /* width: 20vw; */
+        /* display: flex;
+    justify-content: center;
+    justify-content: space-evenly; */
+        border: 1px solid rgb(223, 198, 198);
+        border-radius: 20px;
+        column-gap: 10%;
+    }
+
+    .chotu {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 20px;
+
+    }
+
+    .bankok {
+
+        /* padding-left: 60px; */
+        padding: 20px;
+
+    }
+
+    .USA {
+
+        /* padding: 20px 32px 0px 0px; */
+        text-align: center;
+
+        font-size: 16px;
+        /* margin-top: px ; */
+
+    }
+
+    .germany {
+
+        height: 80vh;
+        background-image: url(./PROJIMAGES/closed-bg.jpg);
+        text-align: center;
+        /* padding-bottom: 50px; */
+        padding-top: 50px;
+        /* margin-top: 50px; */
+    }
+
+    .fex {
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        /* padding-top: 30px;
+    padding-left: 110px; */
+        column-gap: 15px;
+        /* padding-top: 30px; */
+        margin-top: 20px;
+    }
+
+    .fex1 {
+
+        height: 40vh;
+        padding-top: 10px;
+    }
+
+    .aside {
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        font-size: 20px;
+        font-family: cursive;
+    }
+
+    .button1 {
+
+
+        padding: 20px 35px;
+        text-align: center;
+        font-size: 16px;
+        margin: 6px 4px;
+        cursor: pointer;
+        margin-top: 50px;
+
+    }
+
+    .mdiv {
+
+
+        height: 55vh;
+        text-align: center;
+        margin-top: 70px;
+        width: 100%;
+
+
+    }
+
+    .mmdiv {
+        /* display: grid;
+    
+    grid-template-columns: auto auto auto; */
+        display: flex
+            /* padding: 10px; */
+
+
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .class1 {
+
+        height: 60vh;
+
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+
+    }
+
+    .class2 {
+
+        height: 60vh;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+
+    .class3 {
+
+        height: 60vh;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .footer {
+
+        font-size: 20px;
+        margin-top: 20%;
+        background-color: aquamarine;
+    }
+
+    /* 
+.bankok {
+
+    padding: 7.5%;
+} */
+
+    .button11 {
+        border: blue solid 2px;
+        width: 75%;
+        height: 5vh;
+        border-radius: 5px;
+        cursor: pointer;
+
+    }
+
+    /* 
+.USA {
+    padding-left: 25%;
+    padding-top: 10%;
+} */
+
+    .england {
+
+        padding: 20px 35px;
+        text-align: center;
+        font-size: 16px;
+        margin: 6px 4px;
+        cursor: pointer;
+        margin-top: 30px;
+    }
+
+
+    span {
+        color: rgb(99, 99, 204);
+    }
+
+}
